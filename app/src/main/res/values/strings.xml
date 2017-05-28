@@ -1,3 +1,4 @@
 <resources>
     <string name="app_name">MFCC-ASR</string>
+    <string name="mfcc_mean">MFCC Mean</string>
 </resources>

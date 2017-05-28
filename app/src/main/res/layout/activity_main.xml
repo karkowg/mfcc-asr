@@ -6,13 +6,48 @@
     android:layout_height="match_parent"
     tools:context="br.ufsm.inf.gkarkow.mfcc_asr.MainActivity">
 
-    <TextView
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:text="Hello World!"
-        app:layout_constraintBottom_toBottomOf="parent"
-        app:layout_constraintLeft_toLeftOf="parent"
-        app:layout_constraintRight_toRightOf="parent"
-        app:layout_constraintTop_toTopOf="parent" />
+    <LinearLayout
+        android:layout_width="395dp"
+        android:layout_height="587dp"
+        android:orientation="vertical"
+        android:padding="10dp"
+        tools:layout_editor_absoluteX="8dp"
+        tools:layout_editor_absoluteY="8dp">
 
+        <Button
+            android:id="@+id/btn_process_wav"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:onClick="processWav"
+            android:text="process test file (english.wav)" />
+
+        <TextView
+            android:id="@+id/textView"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="mfcc mean" />
+
+        <EditText
+            android:id="@+id/et_mfcc_mean_value"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:editable="false"
+            android:ems="10"
+            android:hint="result"
+            android:inputType="none" />
+
+        <TextView
+            android:id="@+id/textView2"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="perceptual spectral flux" />
+
+        <EditText
+            android:id="@+id/et_psf_value"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:ems="10"
+            android:hint="result"
+            android:inputType="none" />
+    </LinearLayout>
 </android.support.constraint.ConstraintLayout>

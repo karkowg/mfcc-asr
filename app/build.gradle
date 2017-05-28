@@ -27,5 +27,6 @@ dependencies {
     compile 'com.android.support:appcompat-v7:25.3.1'
     compile 'com.android.support.constraint:constraint-layout:1.0.2'
     testCompile 'junit:junit:4.12'
-    compile files('libs/TarsosDSP-Android-2.4-bin.jar')
+    compile project(':Hermes')
+    compile files('libs/TarsosDSP-Android-latest-bin.jar')
 }

@@ -2,6 +2,7 @@
 <project version="4">
   <component name="ProjectModuleManager">
     <modules>
+      <module fileurl="file://$PROJECT_DIR$/Hermes/Hermes.iml" filepath="$PROJECT_DIR$/Hermes/Hermes.iml" />
       <module fileurl="file://$PROJECT_DIR$/MFCC-ASR.iml" filepath="$PROJECT_DIR$/MFCC-ASR.iml" />
       <module fileurl="file://$PROJECT_DIR$/app/app.iml" filepath="$PROJECT_DIR$/app/app.iml" />
     </modules>
